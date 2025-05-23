@@ -96,15 +96,14 @@ const Header: React.FC = () => {
         { name: 'Team', path: '/about/team' },
       ]
     },
-    {
-      name: 'Resources',
-      path: '/resources',
-      dropdownItems: [
-        { name: 'Blog', path: '/resources/blog' },
-        { name: 'Events', path: '/resources/events' },
-      ]
-    }
-  ];
+ {
+  name: 'Resources',
+  path: '', // or null
+  dropdownItems: [
+    { name: 'Blog', path: '/resources/blog' },
+    { name: 'Events', path: '/resources/events' },
+  ]
+}
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
