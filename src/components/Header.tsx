@@ -98,7 +98,6 @@ const Header: React.FC = () => {
     },
     {
       name: 'Resources',
-      path: '/resources',
       dropdownItems: [
         { name: 'Blog', path: '/resources/blog' },
         { name: 'Events', path: '/resources/events' },
